@@ -1,0 +1,57 @@
+{
+  "name": "blockbnb-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "NODE_ENV=development nodemon app.js"
+  },
+  "precommit": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jay-ithiel/blockbnb-backend.git"
+  },
+  "author": "jay-ithiel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jay-ithiel/blockbnb-backend/issues"
+  },
+  "homepage": "https://github.com",
+  "dependencies": {
+    "ajv": "^6.5.4",
+    "apollo-engine": "^1.1.2",
+    "apollo-server": "^2.1.0",
+    "apollo-server-express": "^2.1.0",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "camelcase-keys": "^4.2.0",
+    "cors": "^2.8.4",
+    "date-fns": "^1.29.0",
+    "decamelize-keys": "^1.1.0",
+    "express": "^4.16.2",
+    "graphql": "^0.13.2",
+    "helmet": "^3.13.0",
+    "jimp": "^0.2.28",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.0",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.1",
+    "sequelize": "^4.39.0",
+    "short-uuid": "^2.3.4",
+    "winston": "^2.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "nodemon": "^1.18.4",
+    "npm-check": "^5.9.0",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.14.3",
+    "prettier-eslint": "^8.8.2",
+    "sqlite3": "4.0.0",
+  }
+}
